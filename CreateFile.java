@@ -48,6 +48,7 @@ public class CreateFile
 		else if(workingos.startsWith("linu"))
 		{
 			//Linux - TBD
+			filepath = workingdir + "/" + filename;
 		}
 		System.out.println(filepath);
 		return filepath;
@@ -56,7 +57,8 @@ public class CreateFile
 	public static void main( String[] args )
     {
     	CreateFile myJavadir = new CreateFile("java.txt", "user.dir");
-    	String path = ConstructFilepath();
+    	String path = myJavadir.ConstructFilepath();
+    	System.out.println(path);
     	OpenFile(path);
     }
 }
