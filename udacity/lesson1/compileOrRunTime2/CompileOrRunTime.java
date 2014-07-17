@@ -1,4 +1,4 @@
-// TODO: Decide whether this is a compile-time or run-time error.
+package udacity.lesson1.compileOrRunTime2;
 
 public class CompileOrRunTime
 {

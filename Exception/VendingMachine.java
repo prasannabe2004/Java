@@ -1,3 +1,4 @@
+package Exception;
 
 class TemperatureException extends Exception 
 {

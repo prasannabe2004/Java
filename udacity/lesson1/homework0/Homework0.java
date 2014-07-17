@@ -1,4 +1,5 @@
-// TODO: Run this program in BlueJ. If you don't have
+package udacity.lesson1.homework0;
+
 // BlueJ installed yet, run it in the Udacity IDE. 
 // Paste the output in the text area.
 

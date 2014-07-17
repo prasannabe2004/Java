@@ -1,3 +1,5 @@
+package udacity.lesson1.errors;
+
 public class Error2
 {
     public static void main(String[] args)
