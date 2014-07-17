@@ -1,6 +1,5 @@
+package Exception;
 
-
- 
 public class MyException 
 {
     public static int GenerateRuntimeEx()

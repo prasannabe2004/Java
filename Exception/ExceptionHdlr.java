@@ -1,6 +1,8 @@
+package Exception;
+
 import java.io.*;
 
-class ExceptinHdlr 
+class ExceptionHdlr 
 {
     public static void main(String[] args) throws IOException 
     {

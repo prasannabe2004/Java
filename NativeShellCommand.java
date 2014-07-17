@@ -6,7 +6,6 @@ public class NativeShellCommand
 {
 	public static StringBuffer ExcecuteShellCommand(String cmd)
 	{
-		int pid = -1;
 		StringBuffer output = new StringBuffer();
 		try 
 		{

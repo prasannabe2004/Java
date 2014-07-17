@@ -12,11 +12,10 @@ public class LargestOfThree{
         int third = cmd.nextInt();
 
         int largest = largestOfThree(first, second, third);
-        System.out.printf("Largest of three numbers, between %d, %d and %d is %d %n",
-                first, second, third, largest);
+        System.out.println("Largest of three numbers between "+ first +", " + second +", " + third +" is " + largest);
 
         int greatest = greatestOfThreeUsingTernaryOperator(first, second, third);
-        System.out.printf("Greatest of three numbers in Java using ternary operator is %d %n", greatest);
+        System.out.println("Greatest of three numbers in Java using ternary operator is " + greatest);
 
         //close the scanner to prevent resource leak
         cmd.close();

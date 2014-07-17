@@ -32,7 +32,7 @@ public class CreateFile
 			e.printStackTrace();
 		}
 	}
-	public static String ConstructFilepath()
+	public String ConstructFilepath()
 	{
 		String filepath = " ";
 		String workingdir = System.getProperty(dirname);
