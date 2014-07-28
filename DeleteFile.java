@@ -18,7 +18,7 @@ public class DeleteFile
                     }
                 }
             }
-            catch (IOException e)
+            catch (Exception e)
             {
                 e.printStackTrace();
             }
