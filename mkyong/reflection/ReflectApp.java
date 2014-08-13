@@ -1,5 +1,5 @@
-package reflection;
- 
+package mkyong.reflection;
+
 import java.lang.reflect.Method;
  
 public class ReflectApp{
@@ -19,7 +19,7 @@ public class ReflectApp{
  
 	try{
 	        //load the AppTest at runtime
-		Class cls = Class.forName("com.mkyong.reflection.AppTest");
+		Class cls = Class.forName("mkyong.reflection.AppTest");
 		Object obj = cls.newInstance();
  
 		//call the printIt method

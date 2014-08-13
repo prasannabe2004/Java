@@ -1,5 +1,5 @@
-package reflection;
- 
+package mkyong.reflection;
+
 public class AppTest{
  
 	private int counter;
