@@ -2,12 +2,12 @@ package mkyong.reflection;
 
 import java.lang.reflect.Method;
  
-public class ReflectApp{
+public class ReflectApp {
  
 	public static void main(String[] args) {
  
 	//no paramater
-	Class noparams[] = {};
+	Class<?> noparams[] = {};
  
 	//String parameter
 	Class[] paramString = new Class[1];	
@@ -28,7 +28,7 @@ public class ReflectApp{
  
 		//call the printItString method, pass a String param 
 		method = cls.getDeclaredMethod("printItString", paramString);
-		method.invoke(obj, new String("mkyong"));
+		method.invoke(obj, new String("prasanna"));
  
 		//call the printItInt method, pass a int param
 		method = cls.getDeclaredMethod("printItInt", paramInt);
