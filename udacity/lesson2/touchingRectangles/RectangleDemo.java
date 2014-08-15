@@ -1,3 +1,5 @@
+package udacity.lesson2.touchingRectangles;
+
 // BlueJ project: lesson2/touchingRectangles
 //
 // You need to construct and draw two rectangles for this quiz.
@@ -11,6 +13,9 @@ public class RectangleDemo
 {
     public static void main(String[] args)
     {
-        // TODO: Construct and draw the rectangles
+        Rectangle box1 = new Rectangle(60,90,20,30);
+        box1.draw();
+        Rectangle box2 = new Rectangle(80,120,20,30);
+        box2.draw();
     }
 }

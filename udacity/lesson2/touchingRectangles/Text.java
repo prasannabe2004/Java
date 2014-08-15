@@ -1,3 +1,5 @@
+package udacity.lesson2.touchingRectangles;
+
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
