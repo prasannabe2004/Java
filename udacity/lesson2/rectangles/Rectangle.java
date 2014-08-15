@@ -1,3 +1,5 @@
+package udacity.lesson2.rectangles;
+
 //HIDE
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
