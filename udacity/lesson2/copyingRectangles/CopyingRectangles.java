@@ -1,3 +1,5 @@
+package udacity.lesson2.copyingRectangles;
+
 public class CopyingRectangles
 {
     public static void main(String[] args)

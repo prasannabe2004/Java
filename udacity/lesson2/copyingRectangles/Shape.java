@@ -1,3 +1,5 @@
+package udacity.lesson2.copyingRectangles;
+
 import java.awt.Graphics2D;
 
 /**

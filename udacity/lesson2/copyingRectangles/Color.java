@@ -1,3 +1,5 @@
+package udacity.lesson2.copyingRectangles;
+
 public class Color
 {
     private int red;
