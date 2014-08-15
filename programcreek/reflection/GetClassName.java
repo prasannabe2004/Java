@@ -1,17 +1,15 @@
+package programcreek.reflection;
+
 import java.lang.reflect.Method;
  
- 
-package myreflection;
-import java.lang.reflect.Method;
- 
-public class ReflectionGetClassName {
+public class GetClassName {
 	public static void main(String[] args){
-		Foo f = new Foo();
+		Foo2 f = new Foo2();
 		System.out.println(f.getClass().getName());			
 	}
 }
  
-class Foo {
+class Foo2 {
 	public void print() {
 		System.out.println("abc");
 	}

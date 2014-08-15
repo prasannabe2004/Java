@@ -1,9 +1,11 @@
+package programcreek.reflection;
+
 import java.lang.reflect.Method;
  
  
 public class InvokeMethod {
 	public static void main(String[] args){
-		Foo f = new Foo();
+		Foo4 f = new Foo4();
  
 		Method method;
 		try {
@@ -15,7 +17,7 @@ public class InvokeMethod {
 	}
 }
  
-class Foo {
+class Foo4 {
 	public void print() {
 		System.out.println("abc");
 	}
