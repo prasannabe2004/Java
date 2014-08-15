@@ -1,3 +1,5 @@
+package udacity.lesson2.strings;
+
 public class StringDemo
 {
     public static void main(String[] args)
