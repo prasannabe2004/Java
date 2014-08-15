@@ -19,12 +19,12 @@ public class ReflectApp {
  
 	try{
 	        //load the AppTest at runtime
-		Class cls = Class.forName("mkyong.reflection.AppTest");
+		Class<?> cls = Class.forName("mkyong.reflection.AppTest");
 		Object obj = cls.newInstance();
  
 		//call the printIt method
 		Method method = cls.getDeclaredMethod("printIt", noparams);
-		method.invoke(obj, null);
+		method.invoke(obj, (Object [])null);
  
 		//call the printItString method, pass a String param 
 		method = cls.getDeclaredMethod("printItString", paramString);
@@ -40,7 +40,7 @@ public class ReflectApp {
  
 		//call the printCounter method
 		method = cls.getDeclaredMethod("printCounter", noparams);
-		method.invoke(obj, null);
+		method.invoke(obj, (Object [])null);
  
 	}catch(Exception ex){
 		ex.printStackTrace();
