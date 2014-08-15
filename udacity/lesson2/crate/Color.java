@@ -1,3 +1,5 @@
+package udacity.lesson2.crate;
+
 //HIDE
 public class Color
 {

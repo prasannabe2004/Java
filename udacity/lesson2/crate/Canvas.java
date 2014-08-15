@@ -1,3 +1,5 @@
+package udacity.lesson2.crate;
+
 //HIDE
 //OUT canvas.png
 import java.awt.image.BufferedImage;
