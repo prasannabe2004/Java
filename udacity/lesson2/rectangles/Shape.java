@@ -1,4 +1,4 @@
-package udacity.lesson2.rectangles;
+ 
 
 import java.awt.Graphics2D;
 
