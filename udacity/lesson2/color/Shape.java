@@ -1,3 +1,5 @@
+package udacity.lesson2.color;
+
 //HIDE
 import java.awt.Graphics2D;
 

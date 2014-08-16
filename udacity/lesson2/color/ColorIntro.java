@@ -1,3 +1,5 @@
+package udacity.lesson2.color;
+
 public class ColorIntro
 {
     public static void main(String[] args)

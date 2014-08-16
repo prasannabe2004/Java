@@ -1,3 +1,5 @@
+package udacity.lesson2.color;
+
 //HIDE
 //OUT canvas.png
 import java.awt.image.BufferedImage;
