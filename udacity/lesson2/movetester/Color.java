@@ -1,3 +1,5 @@
+package udacity.lesson2.movetester;
+
 public class Color
 {
     private int red;

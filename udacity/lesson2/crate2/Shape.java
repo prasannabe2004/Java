@@ -1,3 +1,5 @@
+package udacity.lesson2.crate2;
+
 //HIDE
 import java.awt.Graphics2D;
 

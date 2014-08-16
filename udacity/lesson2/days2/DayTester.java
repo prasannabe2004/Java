@@ -1,3 +1,5 @@
+package udacity.lesson2.days2;
+
 public class DayTester
 {
     public static void main(String[] args)

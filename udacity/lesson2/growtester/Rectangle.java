@@ -1,3 +1,5 @@
+package udacity.lesson2.growtester;
+
 //HIDE
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;

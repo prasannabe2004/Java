@@ -1,3 +1,5 @@
+package udacity.lesson2.pictures2;
+
 public class PictureDemo
 {
     public static void main(String[] args)

@@ -1,3 +1,5 @@
+package udacity.lesson2.movetester;
+
 public class RectangleTester
 {
     public static void main(String[] args)

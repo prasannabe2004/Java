@@ -1,3 +1,5 @@
+package udacity.lesson2.days2;
+
 // Calculate the number of days live
 public class DaysAlivePrinter
 {

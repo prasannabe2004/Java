@@ -1,3 +1,5 @@
+package udacity.lesson2.growtester;
+
 // BlueJ project lesson2/growtester
 // 
 // Print out the actual AND expected values for the

@@ -1,3 +1,5 @@
+package udacity.lesson2.crate2;
+
 // BlueJ project: lesson2/crate2
 
 public class TopSecret

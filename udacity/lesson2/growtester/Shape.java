@@ -1,3 +1,5 @@
+package udacity.lesson2.growtester;
+
 import java.awt.Graphics2D;
 
 /**
