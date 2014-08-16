@@ -1,3 +1,5 @@
+package udacity.lesson3.friends1;
+
 // BlueJ project: lesson3/friend1
 // Video: Checking the Person Class
 //

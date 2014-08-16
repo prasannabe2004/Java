@@ -1,3 +1,5 @@
+package udacity.lesson3.cars2;
+
 //HIDE
 //OUT canvas.png
 import java.awt.Dimension;

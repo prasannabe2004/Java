@@ -1,3 +1,5 @@
+ 
+
 // BlueJ project: lesson3/friend2
 // Video: Implementing Get Friends Method
 public class Person
@@ -16,7 +18,7 @@ public class Person
    // the names of the friends of this Person object.
    public String getFriends()
    {
-
+	   return friends;
    }
 
     public void addFriend(Person friend)

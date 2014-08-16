@@ -1,4 +1,4 @@
-package udacity.lesson3.lesson3.cars4;
+package udacity.lesson3.cars4;
 
 // BlueJ project: lesson3/cars4
 

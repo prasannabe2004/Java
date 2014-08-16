@@ -1,3 +1,5 @@
+package udacity.lesson3.cars6;
+
 /**
    A simulated car that consumes gas as it drives.
 */

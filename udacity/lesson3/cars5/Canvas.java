@@ -1,3 +1,7 @@
+package udacity.lesson3.cars5;
+
+ 
+
 //HIDE
 //OUT canvas.png
 import java.awt.image.BufferedImage;

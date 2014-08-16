@@ -1,3 +1,7 @@
+package udacity.lesson3.cars5;
+
+ 
+
 // BlueJ project: lesson3/cars5
 
 // Complete the second constructor of this class.
@@ -21,6 +25,11 @@ public class Car
     public Car(double mpg, String pictureFile)
     {
         // TODO: Complete this constructor
+        milesDriven = 0;
+        gasInTank = 0;
+        milesPerGallon = mpg;
+        pic = new Picture(pictureFile);
+        pic.draw();
     }
 
     public void drive(double distance)

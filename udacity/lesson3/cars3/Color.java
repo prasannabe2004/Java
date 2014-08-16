@@ -1,3 +1,5 @@
+package udacity.lesson3.cars3;
+
 public class Color
 {
     private int red;

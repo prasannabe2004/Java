@@ -1,3 +1,5 @@
+package udacity.lesson3.cars6;
+
 public class CarTester
 {
     public static void main(String[] args)

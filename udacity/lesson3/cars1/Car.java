@@ -1,3 +1,5 @@
+package udacity.lesson3.cars1;
+
 public class Car
 {
     private double milesDriven;

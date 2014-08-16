@@ -1,4 +1,4 @@
-package udacity.lesson3.lesson3.cars4;
+package udacity.lesson3.cars4;
 
 public class Car
 {
