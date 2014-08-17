@@ -1,3 +1,11 @@
+package udacity.lesson3.friends3;
+
+ 
+
+ 
+
+import java.io.*;
+
 // BlueJ project: lesson3/friends3
 public class Person
 {
@@ -9,10 +17,15 @@ public class Person
     // 1) String pictureName
     // 2) int xCoord
     // 3) int yCoord
-    public Person (String aName, ...)
+    public Person (String aName, String picturede, double x, double y)
     {
         name = aName;
         friends = "";
+
+		System.out.println(picturede);
+        Picture pic = new Picture(picturede);
+        pic.translate(x,y);
+        pic.draw();
 
         // TODO #2: Fill in the rest of this constructor
         //

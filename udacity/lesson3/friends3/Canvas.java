@@ -1,3 +1,7 @@
+package udacity.lesson3.friends3;
+
+ 
+
 //HIDE
 //OUT canvas.png
 import java.awt.image.BufferedImage;

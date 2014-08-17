@@ -1,3 +1,5 @@
+package udacity.lesson3.friends6;
+
 //HIDE
 import java.awt.Graphics2D;
 

@@ -1,3 +1,5 @@
+package udacity.lesson2.rectangles;
+
  
 
 //HIDE

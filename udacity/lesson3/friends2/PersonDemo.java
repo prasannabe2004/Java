@@ -1,3 +1,5 @@
+package udacity.lesson3.friends2;
+
  
 
 public class PersonDemo 

@@ -1,9 +1,14 @@
+package udacity.lesson3.friends4;
+
+ 
+
 // BlueJ project: lesson3/friends4
 public class Person
 {
     private String name;
     private String friends;
-
+    private int x;
+    private int y;
     // TODO Part 1: Create two additional instance int variables called x and y
     // to store the values of xCoord and yCoord variables that are passed
     // into the Person constructor below
@@ -18,6 +23,8 @@ public class Person
         Picture picture = new Picture(pictureName);
         picture.translate(xCoord, yCoord);
         picture.draw();
+        x = xCoord;
+        y = yCoord;
         // TODO Part 2:
         // assign xCoord and yCoord to the x and y instance variables that you
         // created above
@@ -37,6 +44,11 @@ public class Person
     public void addFriend(Person friend)
     {
         friends = friends + " " + friend.name;
+        SmallCircle myCircle = new SmallCircle(x,y);
+        myCircle.fill();
+        
+        Line myLine = new Line(x,y,friend.x,friend.y);
+        myLine.draw();
          // TOOD Part 3:
         // Here's the challenging part! Update the addFriend
         // function to:

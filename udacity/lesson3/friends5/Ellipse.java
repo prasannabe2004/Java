@@ -1,3 +1,5 @@
+package udacity.lesson3.friends5;
+
 //HIDE
 import java.awt.Graphics2D;
 import java.awt.geom.Ellipse2D;

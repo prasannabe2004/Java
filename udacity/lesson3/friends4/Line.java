@@ -1,3 +1,7 @@
+package udacity.lesson3.friends4;
+
+ 
+
 //HIDE
 import java.awt.Graphics2D;
 import java.awt.geom.Line2D;

@@ -1,3 +1,7 @@
+package udacity.lesson3.friends3;
+
+ 
+
 //HIDE
 public class Color
 {

@@ -10,7 +10,7 @@ public class Car
     {
         milesDriven = 0;
         gasInTank = 0;
-        pic = new Picture("car.jpg");
+        pic = new Picture("C:\\Users\\pmohanasundaram\\Documents\\Git\\Java\\udacity\\lesson3\\cars3\\car.jpg");
         pic.draw();
     }
 

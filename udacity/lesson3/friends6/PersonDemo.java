@@ -1,3 +1,5 @@
+package udacity.lesson3.friends6;
+
 // This you for your reference only. There is no need to modify this file.
 
 public class PersonDemo

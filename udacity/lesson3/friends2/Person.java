@@ -1,3 +1,5 @@
+package udacity.lesson3.friends2;
+
  
 
 // BlueJ project: lesson3/friend2

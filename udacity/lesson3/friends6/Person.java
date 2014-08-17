@@ -1,3 +1,5 @@
+package udacity.lesson3.friends6;
+
 // BlueJ project: lesson3/friends7
 /**
  * Models a person who makes and unmakes friends
@@ -29,7 +31,8 @@ public class Person
 
     public void mutualUnfriend(Person nonFriend)
     {
-      // complete this method
+        this.unfriend(nonFriend);
+        nonFriend.unfriend(this);
     }
 
     public void addFriend(Person friend)

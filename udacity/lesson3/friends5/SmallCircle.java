@@ -1,3 +1,5 @@
+package udacity.lesson3.friends5;
+
 
 /**
  * Describes a small circle that can be drawn

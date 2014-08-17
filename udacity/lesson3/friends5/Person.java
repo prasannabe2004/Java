@@ -1,3 +1,5 @@
+package udacity.lesson3.friends5;
+
 /**
  * Models a person who makes and unmakes friends
  *
@@ -12,14 +14,14 @@ public class Person
     // TODO: Update the person constructor to use the this reference
     //
     // It looks a bit cleaner this way stylistically
-    public Person (String name, String pictureName, int xCoord, int yCoord)
+    public Person (String name, String pictureName, int x, int y)
     {
         this.name = name;
         friends = "";
         Picture picture = new Picture(pictureName);
-        x = xCoord;
-        y = yCoord;
-        picture.translate(xCoord, yCoord);
+        this.x = x;
+        this.y = y;
+        picture.translate(this.x, this.y);
         picture.draw();
     }
 
