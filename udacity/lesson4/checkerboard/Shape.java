@@ -1,3 +1,5 @@
+package udacity.lesson4.checkerboard;
+
 //HIDE
 import java.awt.Graphics2D;
 

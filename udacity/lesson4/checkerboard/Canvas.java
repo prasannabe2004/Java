@@ -1,3 +1,5 @@
+package udacity.lesson4.checkerboard;
+
 //HIDE
 //OUT canvas.png
 import java.awt.image.BufferedImage;

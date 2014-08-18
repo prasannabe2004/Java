@@ -1,3 +1,5 @@
+package udacity.lesson4.checkerboard;
+
 // BlueJ project: lesson4/checkerboard
 // Video: Checkerboard
 
@@ -12,6 +14,9 @@ public class CheckerBoardPainter
      */
     public int getColor(int row, int col)
     {
-
+    	if(((row+col) % 2) == 1)
+    		return 0;
+    	else
+    		return 1;
     }
 }

@@ -1,3 +1,5 @@
+package udacity.lesson4.turningMathToJava;
+
 public class UglyFractionCalculatorTester {
     public static void main(String[] args) 
     {

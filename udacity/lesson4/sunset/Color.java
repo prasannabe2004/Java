@@ -1,3 +1,5 @@
+package udacity.lesson4.sunset;
+
 // BlueJ project: lesson4/sunset
 
 public class Color
@@ -12,7 +14,7 @@ public class Color
     public void redden()
     {
 
-        // TODO
+    	red = Math.min(255,red+25);
 
     }
 

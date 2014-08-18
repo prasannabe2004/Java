@@ -1,3 +1,5 @@
+package udacity.lesson4.checkerboard;
+
 public class CheckerBoardPainterTester
 {
     public static void main(String[] args)

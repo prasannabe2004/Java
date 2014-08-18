@@ -1,3 +1,5 @@
+package udacity.lesson4.checkerboard;
+
 /**
  * You don't need to do anything with this class,
  * but if you implement the CheckerBoardPainter,

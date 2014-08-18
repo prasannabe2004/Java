@@ -1,3 +1,5 @@
+package udacity.lesson4.fewerColors;
+
 // BlueJ Project: lesson4/fewerColors
 // Video: Color Reduction 2
 
@@ -14,6 +16,10 @@ public class Color
     {
         // TODO: Change the values for red, green, and blue
         // to one of the following: 0, 51, 102, 153, 204, 255
+    	
+    	red = ((red * 6)/256) * 51;
+    	green = ((green * 6)/256) * 51;
+    	blue = ((blue * 6)/256)* 51;
     }
 
     /**

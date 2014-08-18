@@ -1,3 +1,5 @@
+package udacity.lesson4.checkerboard;
+
 //HIDE
 public class Color
 {

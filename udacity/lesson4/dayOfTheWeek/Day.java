@@ -1,3 +1,5 @@
+package udacity.lesson4.dayOfTheWeek;
+
 /**
    A Day object represents a day in the Julian/Gregorian calendar.
 */
