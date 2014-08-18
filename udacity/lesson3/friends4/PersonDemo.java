@@ -1,4 +1,4 @@
-package udacity.lesson3.friends4;
+ 
 
 import java.io.*;
 
