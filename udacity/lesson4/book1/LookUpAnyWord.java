@@ -1,3 +1,5 @@
+package udacity.lesson4.book1;
+
 import java.util.Scanner;
 
 public class LookUpAnyWord

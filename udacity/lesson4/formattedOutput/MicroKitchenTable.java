@@ -1,3 +1,5 @@
+package udacity.lesson4.formattedOutput;
+
 // BlueJ project: lesson4/formattedOutput
 // Video: Formatted Output Practice Part 2
 
@@ -13,7 +15,8 @@ public class MicroKitchenTable
         String cayName = "Cay";
         System.out.println("cookies | cereal | name");
         System.out.println("------------------------");
-
+        System.out.printf("%8d|%8.2f|%s\n", saraCookiesPerDay, saraCerealPerDay, saraName);
+        System.out.printf("%8d|%8.2f|%s\n", cayCookiesPerDay, cayCerealPerDay, cayName);
         // TODO: Print entries for Sara
         // Be sure to line up the entries in the columns using printf
         // Print floating-point numbers with two digits after the decimal point

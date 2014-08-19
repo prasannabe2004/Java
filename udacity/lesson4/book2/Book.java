@@ -1,3 +1,5 @@
+package udacity.lesson4.book2;
+
 // BlueJ Project: lesson4/book2
 // Video: Working with the Book Text
 
@@ -33,7 +35,7 @@ public class Book
         //
         // Check the fact sheet. There is a String function
         // that can do this for you.
-        return 0;
+        return bookText.indexOf("Mad Hatter");
     }
 
     /**

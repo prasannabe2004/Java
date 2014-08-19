@@ -1,3 +1,5 @@
+package udacity.lesson4.book3;
+
 // BlueJ Project: lesson4/book3
 // Video: Working with the Book Text
 
@@ -19,7 +21,8 @@ public class Book
     */
     public String getFirstSentence()
     {
-        // TODO: Return the first sentence
+    	int end = bookText.indexOf(".");
+        return bookText.substring(0, end+1);
     }
 
     /**
