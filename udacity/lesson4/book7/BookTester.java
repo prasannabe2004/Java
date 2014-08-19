@@ -1,3 +1,5 @@
+package udacity.lesson4.book7;
+
 public class BookTester
 {
     public static void main(String[] args) 

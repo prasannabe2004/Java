@@ -1,3 +1,5 @@
+package udacity.lesson4.book4;
+
 // BlueJ Project: lesson4/book4
 // Video: Working with the Book Text
 
@@ -33,6 +35,9 @@ public class Book
         // Locate the period of the first sentence
         // Return the substring consisting of everything after that period up to
         // the second period
+    	int endOfFirstSentence = bookText.indexOf(".");
+    	int index = bookText.indexOf(".",endOfFirstSentence+1);
+    	return bookText.substring(endOfFirstSentence+1, index+1);
     }
 
     /**

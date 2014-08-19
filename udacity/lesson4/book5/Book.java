@@ -1,3 +1,5 @@
+package udacity.lesson4.book5;
+
 // BlueJ Project: lesson4/book5
 // Video: Working with the Book Text
 
@@ -20,6 +22,10 @@ public class Book
     public int occurrencesOfAlice()
     {
         // TODO: Find the number of times the word "Alice" occurs in this book
+    	int length = bookText.length();
+    	int length2 = bookText.replace("Alice", "").length();
+    	int occrurences  = (length - length2) /5;
+    	return occrurences;
     }
 
     /**
@@ -42,6 +48,9 @@ public class Book
         // Locate the period of the first sentence
         // Return the substring consisting of everything after that period up to
         // the second period
+    	int endOfFirstSentence = bookText.indexOf(".");
+    	int index = bookText.indexOf(".",endOfFirstSentence+1);
+    	return bookText.substring(endOfFirstSentence+1, index+1);
     }
 
     /**

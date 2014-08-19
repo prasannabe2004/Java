@@ -1,3 +1,5 @@
+package udacity.lesson4.book7;
+
 import java.util.Scanner;
 import java.io.File;
 
