@@ -1,3 +1,5 @@
+package udacity.lesson4.fields;
+
 public class PlotTester
 {
     public static void main(String[] args)

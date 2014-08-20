@@ -1,3 +1,7 @@
+package udacity.lesson4.fields;
+
+import java.math.*;
+
 public class FieldCalculator
 {
     int radius = 400;
@@ -17,5 +21,17 @@ public class FieldCalculator
         // Use the equations from the last few questions
         // and the mathematical operations you've learned in this lesson
         // You've done an example by hand. Now code it up!
+    	int numerOfRows = (int)((length-diameter)/(radius*Math.sqrt(3)))+1; 
+    	System.out.println(numerOfRows);
+    	int oddRows = numerOfRows/2 +1;
+    	int evenRows = numerOfRows/2;
+    	System.out.println(oddRows + " " + evenRows);
+    	int circlesInOddRow = width/diameter; 
+    	int circlesInEvenRow = (width - radius)/diameter;
+    	System.out.println(circlesInOddRow + " " + circlesInEvenRow);
+    	
+    	int fields = (oddRows*circlesInOddRow) + (evenRows*circlesInEvenRow);
+    	return fields;
+    			
     }
 }

@@ -70,9 +70,9 @@ public class Book
        Finds where the string "Mad Hatter" occurs for the first time in the book.
        @return the location of the first occurrence of the string
     */
-    public int firstOccurrenceOfMadHatter()
+    public int firstOccurrenceOfMadHatter(String word)
     {
-        return bookText.indexOf("Mad Hatter");
+        return bookText.indexOf(word);
     }
 
     /**

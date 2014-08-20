@@ -1,3 +1,5 @@
+package udacity.lesson4.fields;
+
 // BlueJ Project: lesson4/fields
 
 public class Plot

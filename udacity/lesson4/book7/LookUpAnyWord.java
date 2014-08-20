@@ -14,7 +14,7 @@ public class LookUpAnyWord
         Scanner scan = new Scanner(System.in);
         
         // Read a word from the scanner and assign it to a String variable named word
-        String word = scan.next();
+        String word = scan.nextLine();
         
         // TODO: Create a book object that reads from aliceInWonderland.txt
         Book mybook = new Book("C:\\Users\\pmohanasundaram\\Documents\\Git\\Java\\udacity\\lesson4\\book7\\aliceInWonderland.txt");
