@@ -1,3 +1,5 @@
+package udacity.lesson4.negative;
+
 public class Negative
 {
     public static void main(String[] args)

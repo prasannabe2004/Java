@@ -14,7 +14,14 @@ public class Book
     {
         readBook(fileName);
     }
-
+    
+    public int occurrencesOf(String word)
+    {
+        // TODO: Complete this method
+    	int length = bookText.length();
+        int lengthWithoutAlice = bookText.replace(word, "").length();
+        return (length - lengthWithoutAlice) / 5;
+    }
     /**
      * Calculates the number of characters (as in letters and
      * symbols, not people) in the book.

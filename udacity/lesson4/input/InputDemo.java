@@ -1,3 +1,5 @@
+package udacity.lesson4.input;
+
 import java.util.Scanner;
 
 public class InputDemo

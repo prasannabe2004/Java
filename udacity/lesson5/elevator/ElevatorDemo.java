@@ -1,3 +1,5 @@
+package udacity.lesson5.elevator;
+
 import java.util.Scanner;
 
 public class ElevatorDemo

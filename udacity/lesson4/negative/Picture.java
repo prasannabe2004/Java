@@ -1,3 +1,5 @@
+package udacity.lesson4.negative;
+
 //HIDE
 //OUT canvas.png
 import java.awt.Dimension;

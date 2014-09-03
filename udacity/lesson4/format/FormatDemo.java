@@ -1,3 +1,5 @@
+package udacity.lesson4.format;
+
 public class FormatDemo
 {
     public static void main(String[] args)

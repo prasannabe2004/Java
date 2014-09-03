@@ -1,3 +1,5 @@
+package udacity.lesson4.dayOfTheWeek;
+
 public class WeekDayCalculator
 {
 

@@ -1,3 +1,5 @@
+package udacity.lesson4.negative;
+
 public class Color
 {
     private int red;

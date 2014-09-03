@@ -1,3 +1,5 @@
+package udacity.lesson4.dayOfTheWeek;
+
 public class WeekDayCalculatorTester
 {
     public static void main(String[] args) 

@@ -1,3 +1,5 @@
+package udacity.lesson4.grayscale;
+
 public class GrayScale
 {
     public static void main(String[] args)

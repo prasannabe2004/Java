@@ -1,3 +1,5 @@
+package udacity.lesson4.grayscale;
+
 // BlueJ project: lesson4/grayscale
 // Video: Grayscale
 
