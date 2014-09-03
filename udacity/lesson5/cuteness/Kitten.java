@@ -1,3 +1,5 @@
+package udacity.lesson5.cuteness;
+
 public class Kitten
 {
     private int months; // Age. 

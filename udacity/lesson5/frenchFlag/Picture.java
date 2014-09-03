@@ -1,3 +1,5 @@
+package udacity.lesson5.frenchFlag;
+
 //HIDE
 //OUT canvas.png
 import java.awt.Dimension;

@@ -1,3 +1,5 @@
+package udacity.lesson5.frenchFlag;
+
 public class Color
 {
     private int red;

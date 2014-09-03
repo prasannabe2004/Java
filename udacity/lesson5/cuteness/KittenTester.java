@@ -1,3 +1,5 @@
+package udacity.lesson5.cuteness;
+
 public class KittenTester
 {
     public static void main(String[] args)
