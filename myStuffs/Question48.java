@@ -1,3 +1,5 @@
+package myStuffs;
+
 public class Question48 {
 	static int p = method();
 	static int q =10;
