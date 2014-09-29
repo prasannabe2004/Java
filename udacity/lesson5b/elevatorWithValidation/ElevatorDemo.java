@@ -12,30 +12,26 @@ public class ElevatorDemo
     {
         Scanner in = new Scanner(System.in);
         System.out.print("Floor: ");
-        if (...)
+        if (in.hasNextInt())
         {
             // Now we know that the user entered an integer
-
             int floor = in.nextInt();
-
-            if (...)
+            if (floor  == 13)
             {
                 System.out.println("Error: There is no thirteenth floor.");
             }
-            else if (...)
+            else if (floor < 1 || floor > 18)
             {
                 System.out.println("Error: The floor must be between 1 and 18.");
             }
             else
             {
                 // Now we know that the input is valid
-
                 int actualFloor = floor;
-                if (...)
+                if (actualFloor >= 14)
                 {
                     actualFloor = floor - 1;
                 }
-
                 System.out.println("The elevator will travel to the actual floor "
                                    + actualFloor);
             }
