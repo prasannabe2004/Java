@@ -24,6 +24,24 @@ public class Word
         //  isConsonant
         //  is
         // methods from below.
+        int len = letters.length();
+        
+        if(is(len-1,"y") && isVowel(len-2))
+        {
+            return letters+"s";
+        }
+        else if (is(len-1,"y") && isConsonant(len-2))
+        {
+            return letters.substring(0,len-1) + "ies";
+        }
+        else if (is(len-1,"o") || is(len-1,"s") || (is(len-1,"h") && is(len-2,"s"))|| (is(len-1,"h") && is(len-2,"c")))
+        {
+            return letters + "es";
+        }
+        else
+        {
+            return letters + "s";
+        }
     }
 
     /**

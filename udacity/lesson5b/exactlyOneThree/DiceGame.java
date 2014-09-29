@@ -10,7 +10,7 @@ public class DiceGame
      */
     public int exactlyOneThree(int x, int y)
     {
-        if (...) // TODO: if exactly one of x and y is 3
+        if ((x == 3 || y ==3) && !(x==3 && y==3)) // TODO: if exactly one of x and y is 3
         {
             return 1;
         }
