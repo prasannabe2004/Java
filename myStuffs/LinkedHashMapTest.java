@@ -1,3 +1,5 @@
+package myStuffs;
+
 import java.util.*;
 
 public class LinkedHashMapTest {

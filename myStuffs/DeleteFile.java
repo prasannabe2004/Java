@@ -1,3 +1,5 @@
+package myStuffs;
+
 import java.io.*;
 
 public class DeleteFile

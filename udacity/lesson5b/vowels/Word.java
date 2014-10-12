@@ -18,7 +18,7 @@ public class Word
     {
         // TODO: Complete this method
         // A little piece of code to get you started
-        return letters.substring(i, i + 1).equals("a");
+        return letters.substring(i, i+1).equals("a")|| letters.substring(i, i + 1).equals("e")||letters.substring(i, i + 1).equals("i")||letters.substring(i, i + 1).equals("o")||letters.substring(i, i + 1).equals("u");
     }
 
     /**
@@ -29,7 +29,7 @@ public class Word
     public boolean isConsonant(int i)
     {
         // TODO: Complete this method
-        return false;
+        return !(isVowel(i));
     }
 }
 

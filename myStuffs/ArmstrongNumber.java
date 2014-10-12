@@ -1,3 +1,5 @@
+package myStuffs;
+
 class ArmstrongNumber
 {
 	public static boolean isArmstrongNum(int num)
