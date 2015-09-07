@@ -6,6 +6,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
 
+import packet.packetHeader;
+
 /**
  * A TCP server that runs on port 9090.  When a client connects, it
  * sends the client the current date and time, then closes the
@@ -19,14 +21,18 @@ public class server {
      */
     public static void main(String[] args) throws IOException {
         ServerSocket listener = new ServerSocket(9090);
+        packetHeader p = new packetHeader();
+        int temp = p.getX();
         
         try {
             while (true) {
                 Socket socket = listener.accept();
                 try {
-                    PrintWriter out =
-                        new PrintWriter(socket.getOutputStream(), true);
-                    out.println(new Date().toString());
+                    PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+                    //out.println(new Date().toString());
+                    
+                    out.println(temp);
+                    
                 } finally {
                     socket.close();
                 }
