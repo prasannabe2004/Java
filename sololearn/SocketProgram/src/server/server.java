@@ -20,25 +20,25 @@ public class server {
      * Runs the server.
      */
     public static void main(String[] args) throws IOException {
-        ServerSocket listener = new ServerSocket(9090);
+        ServerSocket serverSocket = new ServerSocket(9090);
         packetHeader p = new packetHeader("Hello World!!!");
         String temp = p.getData();
         
         try {
             while (true) {
-                Socket socket = listener.accept();
+                Socket clientSocket = serverSocket.accept();
                 System.out.println("Got something to process\n");
                 try {
                     //PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
                     //out.println(new Date().toString());
-                	socket.getOutputStream().write(temp.getBytes(), 0, temp.length());
+                	clientSocket.getOutputStream().write(temp.getBytes(), 0, temp.length());
                 } finally {
-                    socket.close();
+                    clientSocket.close();
                 }
             }
         }
         finally {
-            listener.close();
+            serverSocket.close();
         }
     }
 }
