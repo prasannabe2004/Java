@@ -1,10 +1,10 @@
 package server;
 
 import java.io.IOException;
-import java.io.PrintWriter;
+//import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Date;
+//import java.util.Date;
 
 import packet.packetHeader;
 
@@ -21,18 +21,17 @@ public class server {
      */
     public static void main(String[] args) throws IOException {
         ServerSocket listener = new ServerSocket(9090);
-        packetHeader p = new packetHeader();
-        int temp = p.getX();
+        packetHeader p = new packetHeader("Hello World!!!");
+        String temp = p.getData();
         
         try {
             while (true) {
                 Socket socket = listener.accept();
+                System.out.println("Got something to process\n");
                 try {
-                    PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+                    //PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
                     //out.println(new Date().toString());
-                    
-                    out.println(temp);
-                    
+                	socket.getOutputStream().write(temp.getBytes(), 0, temp.length());
                 } finally {
                     socket.close();
                 }

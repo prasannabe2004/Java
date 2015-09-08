@@ -2,12 +2,14 @@ package packet;
 
 public class packetHeader {
 	int x;
+	String name;
 	
-	public int getX() {
-		return x;
+	public String getData() {
+		return name;
 	}
 	
-	public packetHeader() {
+	public packetHeader(String data) {
 		x = 100;
+		name = data;
 	}
 }
